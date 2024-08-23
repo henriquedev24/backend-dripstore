@@ -4,7 +4,8 @@ const { Sequelize, DataTypes } = require('sequelize');
 const {url} = require('../config/config')
 
 
-const sequelize = new Sequelize(url)
+const sequelize = new Sequelize(url, {
+    dialect: 'postgres',})
 
 const User = sequelize.define(
     'User',
