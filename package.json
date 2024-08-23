@@ -2,7 +2,7 @@
    "name": "back-end-dripstore",
    "description": "iniciando projeto",
    "version": "1.0.0",
-   "main": "app.js",
+   "main": "src/app.js",
    "keywords": [],
    "scripts": {
       "start": "nodemon src/app.js"
