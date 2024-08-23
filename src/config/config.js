@@ -1,6 +1,6 @@
-const { PORTA, HOST, USUARIO, SENHA, BANCO } = process.env
-console.log(`postgres://${USUARIO}:${SENHA}@${HOST}:${PORTA}/${BANCO}`);
+url = 'postgresql://postgres.ehtducsjvbqibjyhjrkp:projeto-backend@aws-0-us-west-1.pooler.supabase.com:6543/postgres'
+console.log(url);
 
 module.exports = {
-    url: `postgres://${USUARIO}:${SENHA}@${HOST}:${PORTA}/${BANCO}`
+    url: `postgresql://postgres.ehtducsjvbqibjyhjrkp:projeto-backend@aws-0-us-west-1.pooler.supabase.com:6543/postgres`
 }
